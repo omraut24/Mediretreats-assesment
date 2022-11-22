@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    @media (min-width: 768px) {
+        max-width: 1140px;
+    }
+}
+
+.sub-container {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.ul-class {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+}
+
+.li-class {
+    padding-left: 0;
+    list-style: none;
+    /* margin-right: 1rem;
+    margin-left: 1rem; */
+}
+
+.sub-class {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.consult {
+    display: flex;
+    flex-direction: row;
+}
+
+.consult-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    list-style: none;
+    margin-left: 1rem;
+    white-space: normal;
+}
+
+.text1 {
+    font-size: 15px;
+    color: #887F81;
+    font-weight: 500;
+}
+
+.text2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #000;
+    text-decoration: none !important;
+}
+
+.bottom {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    font-family: 'Cerebri Sans', sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #05A0F6, #51BFFD);
+}
+
+.sub-bottom-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    font-family: 'Cerebri Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.list {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    font-family: 'Cerebri Sans', sans-serif;
+    box-sizing: border-box;
+    display: block;
+}
+
+.main {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    font-family: 'Cerebri Sans', sans-serif;
+    box-sizing: border-box;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+}
+
+.active {
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Cerebri Sans', sans-serif;
+    list-style: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: transparent;
+    text-decoration: none;
+    display: block;
+    padding: 20px 1vw;
+    position: relative;
+    font-size: 16px;
+    color: #fff;
+}
+
+.input-box {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    font-family: 'Cerebri Sans', sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #107DF7;
+    position: relative;
+}
+
+.input-box figure {
+    padding-right: 0.5rem;
+    padding-left: 0.75rem;
+    margin-bottom: 0.25rem;
+}
+
+.search-bar {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    overflow: visible;
+    display: block;
+    color: #FFF;
+    height: 64px;
+    box-shadow: none;
+    background-color: #107DF7;
+    border: none;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    border-bottom: 1px solid #0C0F86;
+    margin-top: 8px;
+}
+
+.navigation {
+    background-image: linear-gradient( to right, #0C0F86, #0C0F86 50%, #000 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.navigation:before {
+    content: '';
+    background: #0C0F86;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+.navigation:hover::before {
+    width: 100%;
+}
+
+.subnav {
+    display: flex;
+    flex-direction: row;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 36px;
+    background: #DAEEFF;
+    justify-content: center;
+}
+
+form.search-box {
+    border: none;
+    padding: 0;
+}
