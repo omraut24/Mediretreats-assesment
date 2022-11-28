@@ -992,6 +992,38 @@ footer .top-footer h6 {
     padding-left: 0;
 }
 
+@media screen and (max-width:390px) {
+    .imp-list {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .Tourism-Destination .imp-list {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .important {
+        width: 120px;
+        padding-right: 36px;
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .footer-container .footer-card {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .lower-footer-details .footer-logo {
+        width: 16rem;
+    }
+}
+
 .imp-list li span {
     color: #0082fb;
 }
@@ -1170,6 +1202,28 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+
+/* @media screen and (max-width:390px) {
+    .bottom-footer-text {
+        display: flex;
+        flex-direction: column;
+    }
+} */
+
+@media screen and (max-width:390px) {
+    .lower-footer-details {
+        margin-top: 10rem;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .footer-details {
+        width: 22rem;
+        padding-top: 1rem;
+        justify-content: space-between;
+    }
 }
 
 .bottom-footer-text ul {
