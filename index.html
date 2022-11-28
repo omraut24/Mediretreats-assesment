@@ -7,21 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aafiya Mediretreats</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/568c7fbacc.js" crossorigin="anonymous"></script>
     <script src="js/jquery/jquery-1.8.2.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/msdropdown/dd.css" />
     <script src="js/msdropdown/jquery.dd.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/msdropdown/flags.css" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
-    <!-- <script>
-        const accordion = document.getElementsByClassName('container');
-
-        for (i = 0; i < accordion.length; i++) {
-            accordion[i].addEventListener('click', function() {
-                this.classList.toggle('active')
-            })
-        }
-    </script> -->
 </head>
 
 <body>
@@ -76,43 +68,59 @@
                         <option value='ag' data-image="images/msdropdown/icons/blank.gif" data-imagecss="flag ag"
                             data-title="Antigua and Barbuda">Antigua and Barbuda</option>
                         <option value='ai' data-image="images/msdropdown/icons/blank.gif" data-imagecss="flag ai"
-                            data-title="Anguilla">Anguilla</option>
-                        <option value='al' data-image="images/msdropdown/icons/blank.gif" data-imagecss="flag al"
-                            data-title="Albania">Albania</option>
-                        <option value='am' data-image="images/msdropdown/icons/blank.gif" data-imagecss="flag am"
-                            data-title="Armenia">Armenia</option>
-                        <option value='an' data-image="images/msdropdown/icons/blank.gif" data-imagecss="flag an"
-                            data-title="Netherlands Antilles">Netherlands Antilles</option>
-                    </select>
+                            data-title="Anguilla">Anguilla</option>                        
+                </select>
                 </div>
             </div>
         </div>
-
-        <div class="bottom">
-            <div class="container">
-
-                <div class="nav">
-                    <div class="sub-bottom-container">
-                        <div class="navigation" href="/"> Home </div>
-                        <div class="navigation"> About us</div>
-                        <div class="navigation"> Treatments +</div>
-                        <div class="navigation"> Destinations +</div>
-                        <div class="navigation"> hospitals</div>
-                        <div class="navigation"> FAQs</div>
-                        <div class="navigation"> Blog</div>
-                        <div class="navigation"> Request A Quote</div>
-                        <div class="input-box" id="search_bar_wrap">
-                            <figure>
-                                <img src="/images/search-icon.png" width="20px" height="20px" alt="Search">
-                            </figure>
-                            <input type="text" style="color:#fff" name="search" onkeyup="processChange()" id="search_bar" autocomplete="off" class="search-bar" placeholder="Search">
+        <div class="back-menu">
+            <div class="back-menu-center">
+                <div class="menu-items">
+                    <ul>
+                        <li class="menu-item-1">Home </li>
+                        <li class="menu-item-1">About us </li>
+                        <li class="menu-item-1">Treatments + </li>
+                        <li class="menu-item-1">Destinations +
+                            <ul>
+                                <li><a href="#">India</a></li>
+                                <li><a href="#">UK</a></li>
+                                <li><a href="#">USA</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-1">hospitals </li>
+                        <li class="menu-item-1">FAQs </li>
+                        <li class="menu-item-1">Blog </li>
+                        <li class="menu-item-1">Request A Quote </li>
+                        <div class="search-container">
+                            <input class="search-box" type="search" placeholder="SEARCH">
                         </div>
-                    </div>
+                    </ul>
                 </div>
+            </div>
+            <div class="toggle-menu">
+                <label for="toggle-btn">
+                <i class="fas fa-bars toggle-icon"></i>
+            </label>
+                <input id="toggle-btn" type="checkbox">
+                <ul class="toggle-items">
+                    <li class="toggle-item-1">Home </li>
+                    <li class="toggle-item-1">About us </li>
+                    <li class="toggle-item-1">Treatments + </li>
+                    <li class="toggle-item-1">Destinations +
+                        <ul>
+                            <li><a href="#">India</a></li>
+                            <li><a href="#">UK</a></li>
+                            <li><a href="#">USA</a></li>
+                        </ul>
+                    </li>
+                    <li class="toggle-item-1">hospitals </li>
+                    <li class="toggle-item-1">FAQs </li>
+                    <li class="toggle-item-1">Blog </li>
+                    <li class="toggle-item-1">Request A Quote </li>
+                </ul>
             </div>
         </div>
     </Header>
-
     <main>
         <div class="page-header">
             <div class="container-main">
@@ -186,7 +194,6 @@
                                     FAQs
                                 </a>
                             </li>
-
                         </ul>
                     </nav>
                 </div>
@@ -219,169 +226,214 @@
             </div>
         </section>
         <hr>
-        <section class="tab-pane" id="eligibility">
-            <div class=" section-container">
-                <div class="details1">
-                    <div class="text4">
-                        <div class="heading">
-                            <h2>Eligibility For Treatment<span>.</span></h2>
-                        </div>
-                        <div class="content">
-                            <h4>Any individual who has tried diet and exercise but failed to lose weight is considered as a good candidate for</br>
-                                gastric bypass. Although gastric bypass aids in weight loss, it is not an appropriate option for everyone.</br>
-                                Based on the overall health and certain medical guidelines, the doctor will decide whether you are eligible </br>
-                                for gastric bypass or not. </br>
-                                </br>In general, gastric bypass could be a good option if:</br>
-                                </br>
-                                <ul class="list-unstyled">
-                                    <li class="py-2">The BMI (body mass index) is 40 or more </li>
-                                    <li class="py-2">Your BMI is 30 or more with severe weight-related health conditions like type 2 diabetes and high</br>
-                                        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;blood pressure</li>
-                                    <li class="py-2">You are willing to make permanent changes in the lifestyle.</li>
-                                </ul>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div class="line"></div>
-        <section class="tab-pane " id="preparation">
-            <div class="section-container">
-                <div class="details1">
-                    <div class="text4">
-                        <div class="heading">
-                            <h2>Preparation Before Treatment<span>.</span></h2>
-                        </div>
-                        <div class="content">
-                            <h4>Any individual who has tried diet and exercise but failed to lose weight is considered as a good candidate for</br>
-                                gastric bypass. Although gastric bypass aids in weight loss, it is not an appropriate option for everyone.</br>
-                                Based on the overall health and certain medical guidelines, the doctor will decide whether you are eligible </br>
-                                for gastric bypass or not. </br>
-                                </br>In general, gastric bypass could be a good option if:</br>
-                                </br>
-                                <ul class="list-unstyled">
-                                    <li class="py-2">The BMI (body mass index) is 40 or more </li>
-                                    <li class="py-2">Your BMI is 30 or more with severe weight-related health conditions like type 2 diabetes and high</br>
-                                        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;blood pressure</li>
-                                    <li class="py-2">You are willing to make permanent changes in the lifestyle.</li>
-                                </ul>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div class="line"></div>
-        <section class="tab-pane" id="treatment">
-            <div class="section-container">
-                <div class="details1">
-                    <div class="text4">
-                        <div class="heading">
-                            <h2>About Treatment<span>.</span></h2>
-                        </div>
-                        <div class="content">
-                            <h4>Any individual who has tried diet and exercise but failed to lose weight is considered as a good candidate for</br>
-                                gastric bypass. Although gastric bypass aids in weight loss, it is not an appropriate option for everyone.</br>
-                                Based on the overall health and certain medical guidelines, the doctor will decide whether you are eligible </br>
-                                for gastric bypass or not. </br>
-                                </br>In general, gastric bypass could be a good option if:</br>
-                                </br>
-                                <ul class="list-unstyled">
-                                    <li class="py-2">The BMI (body mass index) is 40 or more </li>
-                                    <li class="py-2">Your BMI is 30 or more with severe weight-related health conditions like type 2 diabetes and high</br>
-                                        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;blood pressure</li>
-                                    <li class="py-2">You are willing to make permanent changes in the lifestyle.</li>
-                                </ul>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div class="line"></div>
-        <section class="tab-pane" id="treatment-care">
-            <div class="section-container">
-                <div class="details1">
-                    <div class="text4">
-                        <div class="heading">
-                            <h2>Post-Treatment Care Treatment<span>.</span></h2>
-                        </div>
-                        <div class="content">
-                            <h4>Any individual who has tried diet and exercise but failed to lose weight is considered as a good candidate for</br>
-                                gastric bypass. Although gastric bypass aids in weight loss, it is not an appropriate option for everyone.</br>
-                                Based on the overall health and certain medical guidelines, the doctor will decide whether you are eligible </br>
-                                for gastric bypass or not. </br>
-                                </br>In general, gastric bypass could be a good option if:</br>
-                                </br>
-                                <ul class="list-unstyled">
-                                    <li class="py-2">The BMI (body mass index) is 40 or more </li>
-                                    <li class="py-2">Your BMI is 30 or more with severe weight-related health conditions like type 2 diabetes and high</br>
-                                        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;blood pressure</li>
-                                    <li class="py-2">You are willing to make permanent changes in the lifestyle.</li>
-                                </ul>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div class="line"></div>
-        <section class="tab-pane" id="recovery-tips">
-            <div class="section-container">
-                <div class="details1">
-                    <div class="text4">
-                        <div class="heading">
-                            <h2>Treatment Recovery Tips<span>.</span></h2>
-                        </div>
-                        <div class="content">
-                            <h4>Any individual who has tried diet and exercise but failed to lose weight is considered as a good candidate for</br>
-                                gastric bypass. Although gastric bypass aids in weight loss, it is not an appropriate option for everyone.</br>
-                                Based on the overall health and certain medical guidelines, the doctor will decide whether you are eligible </br>
-                                for gastric bypass or not. </br>
-                                </br>In general, gastric bypass could be a good option if:</br>
-                                </br>
-                                <ul class="list-unstyled">
-                                    <li class="py-2">The BMI (body mass index) is 40 or more </li>
-                                    <li class="py-2">Your BMI is 30 or more with severe weight-related health conditions like type 2 diabetes and high</br>
-                                        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;blood pressure</li>
-                                    <li class="py-2">You are willing to make permanent changes in the lifestyle.</li>
-                                </ul>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div class="line"></div>
-        <!-- <section class="tab-pane tab-after tab-full-after py-5" id="faqs">
-            <div class="section-container">
-                <div class="row-section">
-                    <div class="col-12">
-                        <div class="heading">
-                            <h2>Treatment FAQs<span>.</span></h2>
-                        </div>
-                        <div class="accordion-body">
-                            <div class="accordion">
-                                <div class="accordion-container">
-                                    <div class="label">What is HTML</div>
-                                    <div class="accordion-content">Hypertext Markup Language (HTML) is a computer language that makes up most web pages and online applications. A hypertext is a text that is used to reference other pieces of text, while a markup language is a series
-                                        of markings that tells web servers the style and structure of a document. HTML is very simple to learn and use.</div>
-                                </div>
-                                <hr>
-                                <div class="accordion-container">
-                                    <div class="label">What is CSS?</div>
-                                    <div class="accordion-content">CSS stands for Cascading Style Sheets. It is the language for describing the presentation of Web pages, including colours, layout, and fonts, thus making our web pages presentable to the users. CSS is designed to make
-                                        style sheets for the web. It is independent of HTML and can be used with any XML-based markup language. CSS is popularly called the design language of the web.
+
+        <div class="right-left pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9">
+                        <section class="tab-pane" id="eligibility">
+                            <div class=" section-container">
+                                <div class="details1">
+                                    <div class="text4">
+                                        <div class="heading">
+                                            <h2>Eligibility For Treatment<span>.</span></h2>
+                                        </div>
+                                        <div class="content">
+                                            <h4>Any individual who has tried diet and exercise but failed to lose weight is considered as a good candidate for</br>
+                                                gastric bypass. Although gastric bypass aids in weight loss, it is not an appropriate option for everyone.</br>
+                                                Based on the overall health and certain medical guidelines, the doctor will decide whether you are eligible </br>
+                                                for gastric bypass or not. </br>
+                                                </br>In general, gastric bypass could be a good option if:</br>
+                                                </br>
+                                                <ul class="list-unstyled">
+                                                    <li class="py-2">The BMI (body mass index) is 40 or more </li>
+                                                    <li class="py-2">Your BMI is 30 or more with severe weight-related health conditions like type 2 diabetes and high</br>
+                                                        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;blood pressure</li>
+                                                    <li class="py-2">You are willing to make permanent changes in the lifestyle.</li>
+                                                </ul>
+                                            </h4>
+                                        </div>
                                     </div>
                                 </div>
-                                <hr>
                             </div>
-                        </div>
+                        </section>
+                        <div class="line"></div>
+                        <section class="tab-pane " id="preparation">
+                            <div class="section-container">
+                                <div class="details1">
+                                    <div class="text4">
+                                        <div class="heading">
+                                            <h2>Preparation Before Treatment<span>.</span></h2>
+                                        </div>
+                                        <div class="content">
+                                            <h4>Any individual who has tried diet and exercise but failed to lose weight is considered as a good candidate for</br>
+                                                gastric bypass. Although gastric bypass aids in weight loss, it is not an appropriate option for everyone.</br>
+                                                Based on the overall health and certain medical guidelines, the doctor will decide whether you are eligible </br>
+                                                for gastric bypass or not. </br>
+                                                </br>In general, gastric bypass could be a good option if:</br>
+                                                </br>
+                                                <ul class="list-unstyled">
+                                                    <li class="py-2">The BMI (body mass index) is 40 or more </li>
+                                                    <li class="py-2">Your BMI is 30 or more with severe weight-related health conditions like type 2 diabetes and high</br>
+                                                        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;blood pressure</li>
+                                                    <li class="py-2">You are willing to make permanent changes in the lifestyle.</li>
+                                                </ul>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <div class="line"></div>
+                        <section class="tab-pane" id="treatment">
+                            <div class="section-container">
+                                <div class="details1">
+                                    <div class="text4">
+                                        <div class="heading">
+                                            <h2>About Treatment<span>.</span></h2>
+                                        </div>
+                                        <div class="content">
+                                            <h4>Any individual who has tried diet and exercise but failed to lose weight is considered as a good candidate for</br>
+                                                gastric bypass. Although gastric bypass aids in weight loss, it is not an appropriate option for everyone.</br>
+                                                Based on the overall health and certain medical guidelines, the doctor will decide whether you are eligible </br>
+                                                for gastric bypass or not. </br>
+                                                </br>In general, gastric bypass could be a good option if:</br>
+                                                </br>
+                                                <ul class="list-unstyled">
+                                                    <li class="py-2">The BMI (body mass index) is 40 or more </li>
+                                                    <li class="py-2">Your BMI is 30 or more with severe weight-related health conditions like type 2 diabetes and high</br>
+                                                        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;blood pressure</li>
+                                                    <li class="py-2">You are willing to make permanent changes in the lifestyle.</li>
+                                                </ul>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <div class="line"></div>
+                        <section class="tab-pane" id="treatment-care">
+                            <div class="section-container">
+                                <div class="details1">
+                                    <div class="text4">
+                                        <div class="heading">
+                                            <h2>Post-Treatment Care Treatment<span>.</span></h2>
+                                        </div>
+                                        <div class="content">
+                                            <h4>Any individual who has tried diet and exercise but failed to lose weight is considered as a good candidate for</br>
+                                                gastric bypass. Although gastric bypass aids in weight loss, it is not an appropriate option for everyone.</br>
+                                                Based on the overall health and certain medical guidelines, the doctor will decide whether you are eligible </br>
+                                                for gastric bypass or not. </br>
+                                                </br>In general, gastric bypass could be a good option if:</br>
+                                                </br>
+                                                <ul class="list-unstyled">
+                                                    <li class="py-2">The BMI (body mass index) is 40 or more </li>
+                                                    <li class="py-2">Your BMI is 30 or more with severe weight-related health conditions like type 2 diabetes and high</br>
+                                                        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;blood pressure</li>
+                                                    <li class="py-2">You are willing to make permanent changes in the lifestyle.</li>
+                                                </ul>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <div class="line"></div>
+                        <section class="tab-pane" id="recovery-tips">
+                            <div class="section-container">
+                                <div class="details1">
+                                    <div class="text4">
+                                        <div class="heading">
+                                            <h2>Treatment Recovery Tips<span>.</span></h2>
+                                        </div>
+                                        <div class="content">
+                                            <h4>Any individual who has tried diet and exercise but failed to lose weight is considered as a good candidate for</br>
+                                                gastric bypass. Although gastric bypass aids in weight loss, it is not an appropriate option for everyone.</br>
+                                                Based on the overall health and certain medical guidelines, the doctor will decide whether you are eligible </br>
+                                                for gastric bypass or not. </br>
+                                                </br>In general, gastric bypass could be a good option if:</br>
+                                                </br>
+                                                <ul class="list-unstyled">
+                                                    <li class="py-2">The BMI (body mass index) is 40 or more </li>
+                                                    <li class="py-2">Your BMI is 30 or more with severe weight-related health conditions like type 2 diabetes and high</br>
+                                                        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;blood pressure</li>
+                                                    <li class="py-2">You are willing to make permanent changes in the lifestyle.</li>
+                                                </ul>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <div class="line"></div>
+                        <section class="tab-pane" id="faqs">
+                            <div class="section-container">
+                                <div class="details1">
+                                    <div class="text4">
+                                        <div class="heading">
+                                            <h2>Treatment FAQs<span>.</span></h2>
+                                        </div>
+                                        <div class="accordion">
+                                            <div class="accordion-item">
+                                                <button id="accordion-button-1" aria-expanded="false">
+                                        <span class="accordion-title"><span class="icon" aria-hidden="true">
+                                        </span>How do I know the clinic I am searching is verified?</span>
+                                    </button>
+                                                <div class="accordion-content">
+                                                    <p>Yes, pre and post treatment consultation can be done. You can speak to the doctor at the most appropriate time (before you decide to travel) to boost your confidence. The team at Mediretreats will also
+                                                        help you with arranging the OPD'S after the surgeries.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion">
+                                            <div class="accordion-item">
+                                                <button id="accordion-button-1" aria-expanded="false">
+                                        <span class="accordion-title"><span class="icon" aria-hidden="true">
+                                        </span>Can I see my doctor before I decide and what about my post recovery?</span>
+                                    </button>
+                                                <div class="accordion-content">
+                                                    <p>Yes, pre and post trFeatment consultation can be done. You can speak to the doctor at the most appropriate time (before you decide to travel) to boost your confidence. The team at Mediretreats will also
+                                                        help you with arranging the OPD'S after the surgeries.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="form">
+                            <h3>Need Help?</h3>
+                            <p>Just let us know. We will be happy to</br> assist you </p>
+                            <div class="input-container ic1">
+                                <input id="fullname" class="input" type="text" placeholder=" " />
+                                <!-- <div class="cut"></div> -->
+                                <label for="fullname" class="placeholder">Full name</label>
+                            </div>
+                            <div class="input-container ic2">
+                                <input id="email" class="input" type="text" placeholder=" " />
+                                <!-- <div class="cut"></div> -->
+                                <label for="email" class="placeholder">Email</label>
+                            </div>
+                            <div class="input-container ic2">
+                                <input id="contact" class="input" type="text" placeholder=" " />
+                                <!-- <div class="cut"></div> -->
+                                <label for="contact" class="placeholder">Phone Number</label>
+                            </div>
+                            <div class="input-container ic2">
+                                <input id="describe" class="input" type="text" placeholder=" " />
+                                <!-- <div class="cut cut-short"></div> -->
+                                <label for="describe" class="placeholder">Your Treatment Requirement</div>
+                                <button type="text" class="submit">submit</button>
+                            </div>
                     </div>
                 </div>
             </div>
-        </section> -->
+        </div>
+        <div class="line"></div>
         <section class="successful-treatments py-5">
             <div class="successful-treatments-container">
                 <div class="heading1">
@@ -826,9 +878,22 @@
                 }
             }
         })
+        const items = document.querySelectorAll(".accordion button");
+
+        function toggleAccordion() {
+            const itemToggle = this.getAttribute('aria-expanded');
+
+            for (i = 0; i < items.length; i++) {
+                items[i].setAttribute('aria-expanded', 'false');
+            }
+
+            if (itemToggle == 'false') {
+                this.setAttribute('aria-expanded', 'true');
+            }
+        }
+
+        items.forEach(item => item.addEventListener('click', toggleAccordion));
     </script>
 </body>
-
-</html>
 
 </html>
