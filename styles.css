@@ -19,6 +19,8 @@ Header {
 @media screen and (max-width:425px) {
     .container {
         max-width: 100%;
+        padding: 6px;
+        background: aliceblue;
     }
 }
 
