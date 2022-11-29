@@ -1134,16 +1134,15 @@ footer .top-footer h6 {
 }
 
 @media screen and (max-width:390px) {
-    .important {
-        width: 120px;
-        padding-right: 36px;
-        padding-left: 0px;
+    .footer-container .footer-card {
+        margin-top: 0px;
     }
 }
 
-@media screen and (max-width:390px) {
-    .footer-container .footer-card {
-        margin-top: 0px;
+@media screen and (max-width:425px) {
+    .heading2,
+    .heading1 {
+        padding: 12px;
     }
 }
 
