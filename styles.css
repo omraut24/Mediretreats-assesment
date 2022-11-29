@@ -1486,7 +1486,9 @@ li[class^="menu-item-"] a {
     background-color: rgb(97 159 255);
     line-height: 47px;
     position: absolute;
-    width: 130px;
+    width: 120px;
+    padding-left: 12px;
+    margin-top: 6px;
     display: none;
     border-radius: 5px;
     -webkit-animation-name: zoomIn;
@@ -2065,6 +2067,12 @@ input.search-box {
         justify-content: space-around!important;
         padding-top: 1rem!important;
         padding-bottom: 1rem!important;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .page-header {
+        z-index: -1;
     }
 }
 
