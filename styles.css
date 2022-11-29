@@ -112,7 +112,7 @@ Header {
 
 @media screen and (max-width:425px) {
     .footer-details .important .imp-list {
-        width: 120px;
+        width: 116px;
     }
 }
 
@@ -164,6 +164,12 @@ Header {
     .bottom-footer-container .bottom-footer-text ul {
         text-align: center;
         margin-top: 16px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .right-left .container .row {
+        margin: 0px;
     }
 }
 
